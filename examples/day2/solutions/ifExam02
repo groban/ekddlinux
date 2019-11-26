@@ -1,0 +1,9 @@
+#!/bin/bash
+if (( $1 == 180 )); then
+echo "bravo to vrikes"
+else 
+echo "lathos kodikos"
+exit 1
+fi
+echo "kalosirthes"
+

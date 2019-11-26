@@ -1,0 +1,4 @@
+#!/bin/bash
+NAME=Christos
+echo "Hello World!"
+echo ${NAME}isthebest

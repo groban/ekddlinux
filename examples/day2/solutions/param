@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "onoma entolis " $0
+echo "proti parametros " $1
+echo "deyteri parametros " $2
+echo "triti parametros " $3
+echo "arithmos parametron " $#

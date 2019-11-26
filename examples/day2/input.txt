@@ -1,0 +1,4 @@
+xristos 240
+tasos 170
+petros 320
+nikos 330

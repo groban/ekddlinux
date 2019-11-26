@@ -1,0 +1,10 @@
+nikos	kozani:2200
+tasos	thessaloniki:1700
+petros	veroia:2000
+xristos	ptolemaida:1400
+giorgos	karditsa:800
+petros	grebena:1200
+mixalis	kastoria:1900
+basilis	florina:3000
+xristos	veroia:2000
+tasos 	kozani:2000

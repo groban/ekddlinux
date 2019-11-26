@@ -1,0 +1,7 @@
+#!/bin/bash
+if rm $1
+then
+echo "OK file removed"
+else
+echo "CAUTION file " $1 " not found"
+fi

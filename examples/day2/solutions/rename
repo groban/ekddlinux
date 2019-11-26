@@ -1,0 +1,7 @@
+#!/bin/bash
+
+file=$1
+file=${file%text}
+file=${file}txt
+
+mv $1 $file

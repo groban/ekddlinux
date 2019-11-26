@@ -1,0 +1,13 @@
+BEGIN{
+    FS=":";
+    count=0
+}
+
+{
+    count=count+0.1
+}
+
+
+END{
+    print count
+}

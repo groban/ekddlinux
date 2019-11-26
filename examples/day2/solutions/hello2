@@ -1,0 +1,5 @@
+#!/bin/bash
+name=Xristos
+echo ${name}isthebest
+
+

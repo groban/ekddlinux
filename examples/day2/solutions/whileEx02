@@ -1,0 +1,13 @@
+#!/bin/bash
+count=0
+while ((count < 8))
+do
+	i=0
+	while((i<count))
+	do
+		printf "*"
+		i=$((i+1))
+	done
+	count=$((count+1))
+	echo ""
+done

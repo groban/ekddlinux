@@ -1,0 +1,11 @@
+basilis:600
+basilis:300
+giorgos:300
+giorgos:300
+kostas:700
+nikos:500
+nikos:500
+petros:800
+tasos:700
+tasos:700
+xristos:500

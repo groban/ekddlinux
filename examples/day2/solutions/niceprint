@@ -1,0 +1,7 @@
+#!/bin/bash
+count=0
+while read p1 p2
+do
+	count=$((count +1))
+	printf "%3d|%10s%5d\n" $count $p1 $p2  
+done

@@ -1,0 +1,15 @@
+#!/bin/bash
+if (($1 <= 0)) 
+then
+	echo "o arithmos " $1 " einai arnhtikos h miden"
+	exit 1
+fi
+
+num=1
+count=1
+while((count<=$1))
+do
+	num=$((num*count))
+	count=$((count+1))
+done
+echo "to paragontiko toy " $1 " einai " $num

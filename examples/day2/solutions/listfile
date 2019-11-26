@@ -1,0 +1,13 @@
+#!/bin/bash
+ls $1 > tmp1
+sed '/~$/d' tmp1 > tmp2
+#cat tmp2
+dir=$(cat tmp2)
+for fn in $dir
+do
+	if [ -x $fn ]
+	then
+		echo $fn
+	fi
+done
+rm tmp1 tmp2

@@ -1,0 +1,7 @@
+#/bin/bash
+while true;
+do 
+echo -n A >> log;
+sleep 1;
+trap 'echo "you pressed ctrl -c"' INT
+done

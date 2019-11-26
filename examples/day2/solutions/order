@@ -1,0 +1,16 @@
+#!/bin/bash
+
+OPTIONS="nes freddo ellinikos exit";
+
+select opt in $OPTIONS
+do
+	if [ $opt == "nes" ] ; then
+		echo "parageiles nes"
+	elif [ $opt == "freddo" ]; then
+		echo "parageiles freddo"
+	elif [ $opt == "ellinikos" ]; then
+		echo "parageiles ellinikos"
+	elif [ $opt == "exit" ] ; then
+		exit
+	fi
+done

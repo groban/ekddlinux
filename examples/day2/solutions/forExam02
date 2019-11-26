@@ -1,0 +1,10 @@
+#!/bin/bash
+while((count<=$1))
+do
+	string=$string$count" "
+	count=$((count+1))
+done
+for fn in $string
+do 
+	echo file$fn
+done

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+read -p "Dose onoma script:" name
+touch ${name:=testfile}
+echo '#!/bin/bash' > $name
+chmod 755 $name
+gedit $name &
+
+

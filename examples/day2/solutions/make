@@ -1,0 +1,7 @@
+#!/bin/bash
+read -p "Dose onoma arxeiou:" file
+printf "creating file %s" ${file:=testfile}
+touch $file
+echo "#!/bin/bash" > $file
+chmod +x $file
+gedit $file &

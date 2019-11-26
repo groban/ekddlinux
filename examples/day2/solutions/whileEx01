@@ -1,0 +1,7 @@
+#!/bin/bash
+count=0
+while read lineoftext
+do
+	count=$((count+1))
+	echo "Line " $count ":" $lineoftext
+done

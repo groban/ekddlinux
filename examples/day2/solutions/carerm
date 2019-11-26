@@ -1,0 +1,14 @@
+#!/bin/bash
+if [ -e $1 ] && [ -w $1 ]
+then
+	echo "the file exists and it is writeable"
+	if [ -s $1 ]
+	then
+		echo "the file is not empty"
+	else
+		echo "the file is empty"
+		rm $1 
+	fi
+else
+	echo "the file DOES not exist or it is not writeable"
+fi

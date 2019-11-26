@@ -1,0 +1,4 @@
+#!/bin/bash
+read -p "Dose dyo arithmous: " x y
+z=$((${x:=10} + ${y:=10}))
+printf "To athroisma toy %d me ton %d einai % d\n" $x $y $z

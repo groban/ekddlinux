@@ -1,0 +1,8 @@
+#!/bin/bash
+file=$1
+
+if rm $file 2> /dev/null ; then
+	echo "to arxeio sbistike"
+else
+	echo "to arxeio den yparxei"
+fi

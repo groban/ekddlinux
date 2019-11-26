@@ -1,0 +1,8 @@
+#!/bin/bash
+
+base=$1
+ext=`date +"%d_%b_%Y"`
+file=$base$ext
+touch $file
+date +"%d_%b_%Y" >> $file
+ls -l | wc -l >> $file
